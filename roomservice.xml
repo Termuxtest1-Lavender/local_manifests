@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="Termuxtest1-Lavender"
            fetch="https://github.com/Termuxtest1-Lavender"
-           />
+           revision="15.0"/>
 
  <!-- Vendor -->
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Termuxtest1-Lavender" revision="15.0"/>
@@ -18,3 +18,4 @@
   
  <!-- Kernel 4.19 -->
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="Termuxtest1-Lavender" revision="15.0"/>
+</manifest>
