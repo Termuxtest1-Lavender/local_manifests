@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="Termuxtest1-Lavender"
+           fetch="https://github.com/Termuxtest1-Lavender"
+           />
+
+ <!-- Vendor -->
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Termuxtest1-Lavender" revision="15.0"/>
+
+ <!-- Hardware -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Termuxtest1-Lavender" revision="15.0"/>
+  
+ <!--Dolby-->
+<project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="Termuxtest1-Lavender" revision="1.3"/>
+  
+ <!-- dt -->
+  <project path="device/xiaomi/lavender"        name="device_xiaomi_lavender" remote="Evox-15"/>
+  
+ <!-- Kernel 4.19 -->
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="Termuxtest1-Lavender" revision="15.0"/>
