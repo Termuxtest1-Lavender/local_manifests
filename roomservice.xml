@@ -11,7 +11,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Termuxtest1-Lavender" revision="15.0"/>
   
  <!--Dolby-->
-<project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="Termuxtest1-Lavender" revision="1.3"/>
+<project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="Termuxtest1-Lavender" revision="v1.3"/>
   
  <!-- dt -->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Termuxtest1-Lavender" revision="Evox-15"/>
