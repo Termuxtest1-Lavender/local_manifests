@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="Termuxtest1-Lavender"
            fetch="https://github.com/Termuxtest1-Lavender"
-           revision="15.0"/>
+           revision="Rising-revived"/>
 
  <!-- Vendor -->
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Termuxtest1-Lavender" revision="15.0"/>
@@ -14,7 +14,7 @@
 <project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="Termuxtest1-Lavender" revision="v1.3"/>
   
  <!-- dt -->
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Termuxtest1-Lavender" revision="Evox-15"/>
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Termuxtest1-Lavender" revision="Rising-revived"/>
   
  <!-- Kernel 4.19 -->
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="Termuxtest1-Lavender" revision="15.0"/>
